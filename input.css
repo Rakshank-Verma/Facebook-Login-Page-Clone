@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {}
+
+.text-color {
+    @apply text-pink-400;
+}
+
+@layer components {}
+
+.btn {
+    @apply border border-pink-300 text-black font-bold;
+    @apply text-color;
+}
